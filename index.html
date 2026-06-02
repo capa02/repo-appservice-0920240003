@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estimasi Biaya Acara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎉 Estimasi Biaya Acara</h1>
+
+    <input type="text" id="acara" placeholder="Nama Acara">
+
+    <input type="number" id="jumlah" placeholder="Jumlah Peserta">
+
+    <select id="jenis">
+        <option value="snack">Snack</option>
+        <option value="makan">Makan Siang</option>
+        <option value="seminar kit">Seminar Kit</option>
+    </select>
+
+    <button onclick="hitungBiaya()">Hitung Estimasi</button>
+
+    <div class="hasil" id="hasil"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
