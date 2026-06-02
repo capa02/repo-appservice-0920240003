@@ -4,7 +4,7 @@ async function hitungBiaya(){
     const jumlah = document.getElementById("jumlah").value;
     const jenis = document.getElementById("jenis").value;
 
-    const url = `https://NAMAFUNCTIONKAMU.azurewebsites.net/api/EstimasiBiaya?acara=${acara}&jumlah=${jumlah}&jenis=${jenis}`;
+    const url = `https://func-serverless-0920240003-hsfbgdc6eacfh6dx.eastasia-01.azurewebsites.net/api/EstimasiBiaya`;
 
     const response = await fetch(url);
     const data = await response.json();
